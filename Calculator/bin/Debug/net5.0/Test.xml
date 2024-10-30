@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyMaths>
+	<MyOperation ID="Plus">
+		<Value>2</Value>
+		<Value>3</Value>
+		<MyOperation ID="Multiplication">
+			<Value>4</Value>
+			<Value>5</Value>
+			<MyOperation ID="Division">
+				<Value>4</Value>
+				<Value>2</Value>
+			</MyOperation>
+		</MyOperation>
+	</MyOperation>
+</MyMaths>
+
+<!--2+3+(4x5x(4/2)) = 45-->
+
+

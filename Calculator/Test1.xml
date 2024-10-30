@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyMaths>
+	<MyOperation ID="Division">
+		<Value>8</Value>
+		<MyOperation ID="Plus">
+			<Value>2.5</Value>
+			<MyOperation ID="Multiplication">
+				<Value>6</Value>
+				<MyOperation ID="Subtraction">
+					<Value>7</Value>
+					<Value>4.5</Value>
+				</MyOperation>
+			</MyOperation>
+		</MyOperation>	
+	</MyOperation>
+</MyMaths>
+
+<!--8/(2.5+(7-4.5)x6) = 0.4571 (4 digits)-->
